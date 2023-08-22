@@ -43,12 +43,17 @@ THEN I should have proper build scripts for a webpack application
 Creted the app which downloads and i can work on offline. Called text editor .
  
 ## links
+
 https://github.com/Haseebz1/textEditor-PWA.git
+
+https://texteditor1-35f0c72c7049.herokuapp.com/
 
 
 ## Screen Shot
 
 ![Alt text](/utils/Capture%20pwa.PNG)
+
+![Alt text](/utils/Capture2.PNG)
 
 ## License 
 
