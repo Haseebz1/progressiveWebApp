@@ -14,9 +14,9 @@ const initdb = async () =>
 export const putDb = async (content) => {
   try{
     const db = await openDB('jate', 1);
-    const store = tx.createObjectStore('jate');
     const tx = db.transaction('jate', 'readwrite');
-    const request = store.put({ Text: content, id:1 });
+    const store = tx.objectStore('jate');
+    const request = store.put({ value: content, id:1 });
     const result = await request;
     return result;
   } catch (error) {
